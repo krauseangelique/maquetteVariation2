@@ -1,0 +1,75 @@
+body{
+    /* Récupération des couleurs grace au picker color */
+    background-color: #6a040f;
+    color: #94d2bd;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.6;
+    
+    margin: 0 auto;
+}
+/* HEADER */
+header{
+    background-color: #ca6702;
+    text-align: center;
+}
+header p{
+    
+    margin-top: 30px;
+    padding: 0 20px 0 30px;    
+}
+header h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+header h2{
+    font-size: 42px;
+    font-weight: 500;
+}
+
+
+/* MAIN */
+main{
+    background-color: #0F0E17;    
+}
+button{
+    box-shadow: 0 4px 8px -4px lightblue;
+    border-radius: 5px;
+    height: 50px;
+    color: #ee9b00;
+    font-size: 20px;
+    padding: 15px;
+    margin-right: 10px;
+}
+
+.btnFirst{
+    background-color: #0a9396;
+}
+.btnSecond{
+    background-color: #005f73;
+}
+
+/* FOOTER */
+span.color, main h2, footer{
+    background-color: #ee9b00;
+    
+    color: #6a040f;
+    padding: 10px;
+}
+main, footer{
+    border-radius: 10px;
+    padding: 20px 30px 20px 30px;
+    max-width: 900px;
+}
+
+footer{
+    margin-top: 40px;
+}
+footer p{
+    color: #6a040f;    
+}
+
+
+
+
