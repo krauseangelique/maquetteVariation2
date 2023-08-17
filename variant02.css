@@ -6,13 +6,14 @@ body{
     font-size: 20px;
     font-weight: 500;
     line-height: 1.6;
+    text-align: center;
     
     margin: 0 auto;
 }
 /* HEADER */
 header{
     background-color: #ca6702;
-    text-align: center;
+   
 }
 header p{
     
@@ -31,43 +32,50 @@ header h2{
 
 /* MAIN */
 main{
-    background-color: #0F0E17;    
+    background-color: #0F0E17; 
+    max-width: 900px;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 20px 30px 20px 30px;
+    
 }
 button{
     box-shadow: 0 4px 8px -4px lightblue;
     border-radius: 5px;
     height: 50px;
-    color: #ee9b00;
+    color: #6a040f;
     font-size: 20px;
     padding: 15px;
     margin-right: 10px;
+    font-weight: 600;
 }
 
 .btnFirst{
     background-color: #0a9396;
 }
 .btnSecond{
-    background-color: #005f73;
+    background-color: #ca6702;
 }
 
 /* FOOTER */
 span.color, main h2, footer{
     background-color: #ee9b00;
-    
     color: #6a040f;
     padding: 10px;
-}
-main, footer{
-    border-radius: 10px;
-    padding: 20px 30px 20px 30px;
-    max-width: 900px;
 }
 
 footer{
     margin-top: 40px;
+    padding: 20px 30px 20px 30px;
 }
 footer p{
     color: #6a040f;    
+    font-size: 24px;
+    font-weight: 600;
+}
+footer p:first-letter{
+    color:#0F0E17;
+    font-size: 130%;
 }
 
 
